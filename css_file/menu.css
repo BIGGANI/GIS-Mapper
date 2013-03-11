@@ -1,0 +1,80 @@
+/* CSS Document */
+
+/* +++++++++++++++++++++++++++++
+   ++++style for common tags++++
+   +++++++++++++++++++++++++++++ */
+
+#mainMenu {
+	float: left;
+	text-transform: capitalize;
+}
+ul.mainMenu {
+	margin: 0;
+	padding: 0;
+}
+
+li.mainMenu {
+	list-style: none;
+	float: left;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 150px;
+}
+
+#mainMenu li ul {
+	position: absolute;
+	display: none;
+	left:0;
+	top: 35px;
+	line-height: 2.0;
+}
+
+#mainMenu li:hover ul {
+	display: block;
+}
+
+#mainMenu ul li ul li {
+	width: 150px;
+	font-weight: normal;
+	border-top: 1px solid #fff;
+	text-align: left;
+}
+
+#mainMenu ul li ul li a {
+	background-color: #009555;
+	padding: 2px 10px 2px 10px;
+	display: block;
+	color: #fff;
+	text-align: center;
+}
+
+#mainMenu ul li ul li a:hover {
+	background-color: #DBD34C;
+	padding: 2px 10px 2px 10px;
+	color: #fff;
+}
+
+li.seperator {
+	width: 2px;
+	height: 100%;
+	background: #fff;
+	float: left;
+	list-style: none;
+	padding: 8px 0 8px 0;
+}
+
+a.mainMenu {
+	color: #fff;
+	display: block;
+	padding: 8px 8px 8px 8px;
+}
+a.mainMenu:hover {
+	background: #DBD34C;
+	padding: 8px 8px 8px 8px;
+}
+
+a.mainMenu:active {
+	background: #DBD34C;
+}
